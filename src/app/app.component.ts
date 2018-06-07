@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  num: number = 4;
+  str: string = 'hi';
+  anything: any = 425;
+  arr: any[] = [4, 7, 'Hello'];
+
 }
